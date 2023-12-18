@@ -4,26 +4,35 @@
 
 ## Setup
 1. Clone the repo
-
-`git clone [SSH or HTTPS]`
+```shell
+git clone [SSH] or [HTTPS]
+```
 
 2. Install backend dependencies
-
-`cd server`
-`npm install`
+```shell
+cd server
+```
+```shell
+npm install
+```
 
 3. Install frontend dependencies
-
-`cd ../client`
-`yarn install`
+```shell
+cd ../client
+```
+```shell
+yarn install
+```
 
 ## Running the app
 Backend:
-
-`npm run dev`
+```shell
+npm run dev
+```
 Frontend:
-
-`yarn dev`
+```shell
+yarn dev
+```
 
 ## Stack
 |          | Tool / Utility  | Link                                                   |
