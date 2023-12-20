@@ -1,15 +1,15 @@
 import React from "react";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
+import { NavLink } from "../components/NavLink";
 
 export const Nav: React.FC = () => {
   return (
     <nav className={classNames("flex", "flex-row", "justify-center")}>
       <div className={classNames("text-xl", "space-x-10")}>
-        <Link to="/">Now Playing</Link>
-        <Link to="/">Popular</Link>
-        <Link to="/">Top Rated</Link>
-        <Link to="/">Upcoming</Link>
+        <NavLink route="/nowplaying" text="Now Playing" />
+        <NavLink route="/popular" text="Popular" />
+        <NavLink route="/toprated" text="Top Rated" />
+        <NavLink route="/upcoming" text="Upcoming" />
       </div>
     </nav>
   );
