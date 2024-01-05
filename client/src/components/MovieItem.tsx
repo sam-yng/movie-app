@@ -17,7 +17,7 @@ export const MovieItem: React.FC<MovieItemProps> = ({ title, poster }) => {
         "items-center",
       )}
     >
-      <img className={classNames("h-48")} src={poster} />
+      <img className={classNames("h-48")} src={poster} loading="lazy" />
       <h1>{title}</h1>
     </article>
   );
